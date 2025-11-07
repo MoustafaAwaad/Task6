@@ -1,6 +1,5 @@
 def add(a, b):
-    return a + b + 1  # Intentional bug for testing
-
+    return a + b
 def sub(a, b):
     return a - b
 
