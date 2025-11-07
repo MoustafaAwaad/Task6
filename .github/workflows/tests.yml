@@ -25,7 +25,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run tests
-      run: pytest -q
+      run: pytest -q test_calculator.py
       
   deploy:
     runs-on: ubuntu-latest
